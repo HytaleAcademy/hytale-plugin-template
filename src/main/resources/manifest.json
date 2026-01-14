@@ -1,0 +1,7 @@
+{
+  "Group": "HytaleAcademy",
+  "Name": "TemplatePlugin",
+  "Version": "1.0.0",
+  "Main": "hytale.academy.template.TemplatePlugin",
+  "ServerVersion": "*"
+}
