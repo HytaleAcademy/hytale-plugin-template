@@ -1,0 +1,7 @@
+[versions]
+kotlin = "2.3.0"
+shadow = "9.3.1"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }

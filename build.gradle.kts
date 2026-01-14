@@ -1,9 +1,9 @@
 plugins {
-    id("java")
-    id("com.gradleup.shadow") version "9.3.1"
+    alias(libs.plugins.kotlin)
+    alias(libs.plugins.shadow)
 }
 
-group = "hytale.plugin.template"
+group = "org.hytaleacademy"
 
 repositories {
     mavenCentral()
