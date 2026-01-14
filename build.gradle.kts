@@ -10,7 +10,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly(files("libs/HytaleServer.jar"))
+    val hytaleServerFile = "${System.getProperty("user.home")}/Appdata/Roaming/Hytale/install/release/package/game/latest/Server/HytaleServer.jar"
+    compileOnly(files(hytaleServerFile))
 }
 
 tasks.shadowJar {
