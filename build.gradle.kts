@@ -7,11 +7,11 @@ group = "org.hytaleacademy"
 
 repositories {
     mavenCentral()
+    maven("https://maven.hytale.com/release")
 }
 
 dependencies {
-    val hytaleServerFile = "${System.getProperty("user.home")}/Appdata/Roaming/Hytale/install/release/package/game/latest/Server/HytaleServer.jar"
-    compileOnly(files(hytaleServerFile))
+    compileOnly(libs.hytale)
 }
 
 tasks.shadowJar {

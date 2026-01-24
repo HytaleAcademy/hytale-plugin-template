@@ -1,7 +1,11 @@
 [versions]
 kotlin = "2.3.0"
 shadow = "9.3.1"
+hytale = "2026.01.24-6e2d4fc36" # latest version can be found on https://maven.hytale.com/release/com/hypixel/hytale/Server/maven-metadata.xml
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+
+[libraries]
+hytale = { module = "com.hypixel.hytale:Server", version.ref = "hytale" }
